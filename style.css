@@ -1,9 +1,13 @@
 body {
   background-color: #dfebe7;
-  margins: auto;
+  margin: auto;
   font-size: 14px;
   font-family: "Georgia", serif;
   color: #1c2a33;
+}
+
+h1 {
+  font-size: 28px;
 }
 
 nav {
