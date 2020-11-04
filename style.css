@@ -11,6 +11,11 @@ body {
     color: #255243;
   }
 
+  img{
+      max-width: 300px;
+      max-height: 250px;
+  }
+
   p{
       font-size: 16px;
       color:#1d3f34;
@@ -38,7 +43,7 @@ body {
 
   a:focus{
       text-transform: uppercase;
-      
+
   }
 
   .gallery{
