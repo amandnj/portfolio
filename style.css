@@ -1,5 +1,5 @@
 body {
-    background-color: fef8f5#;
+    background-color: #fef8f5;
     margin: auto;
     font-size: 14px;
     font-family: "Georgia", serif;
@@ -9,6 +9,7 @@ body {
   h1 {
     font-size: 28px;
     color: #255243;
+    padding: 15px;
   }
 
   img{
@@ -17,23 +18,48 @@ body {
   }
 
   p{
-      font-size: 16px;
+      font-size: 14px;
       color:#1d3f34;
       font-family: "Verdana", sans-serif;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   nav {
    background-color: #ffdbdb;
    color: #1d3f34;
    display: flex;
+   spacing: 10px;
    flex-direction: row;
-   justify-content: right;
+   justify-content: flex-end;
    align-items: center;
 
   }
+
+nav li{
+  display:inline;
+  padding: 7px;
+}
+
+.skip a:focus {
+  top: 0px;
+  left: 0;
+  padding: 5px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+}
+
+.skip a:focus {
+  top: 0px;
+}
   
   a:link{
-    color:#e9a3a3;
+    color:#855D5D;
   }
   
   a:hover{
@@ -48,6 +74,7 @@ body {
 
   .gallery{
       display: grid;
+      width: auto;
       min-height: 800px;
       grid-template-columns: auto auto auto auto;
       grid-template-rows: auto auto auto auto;
@@ -63,9 +90,20 @@ body {
 
   }
 
+.main img{
+  display: flex;
+  max-width: 500px;
+  justify-content: center;
+}
+
   footer{
+      color: #fef8f5;
       background-color: #255243;
-      color: #ffffff;
-      padding: 40px;
+      margin-top:15px;
+      padding: 15px;
       text-align: right;
+      font-family: "Georgia", serif;
+      
   }
+@media (prefers-reduced-motion: reduce)
+  
