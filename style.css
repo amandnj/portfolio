@@ -125,8 +125,13 @@ nav.current{
       align-content:center;
       overflow: none;
 /*might have to individually place all the grid items*/
-
   }
+
+.gallery:hover {
+  opacity: 0.5;
+}
+
+
   #lemon, #peperomia, #pilea, #fern, #polkadot, #pothos, #spider, #yucca, #pinksyn, #monstera, #snake, #cactus {
       border: 3px solid #ffffff;
       margin: 10px;
@@ -135,7 +140,7 @@ nav.current{
     }
 
   }
-  #lemon, #peperomia, #pilea, #fern, #polkadot, #pothos, #spider, #yucca, #pinksyn, #monstera, #snake, #cactus:hover{
+  #lemon, #peperomia, #pilea, #fern, #polkadot, #pothos, #spider, #yucca, #pinksyn, #monstera, #snake, #cactus::hover{
       opacity: 0.5;
   }
 
