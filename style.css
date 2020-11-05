@@ -44,6 +44,8 @@ body {
    margin-bottom: 10px;
    color: #1d3f34;
    display: flex;
+   flex-wrap: wrap;
+   flex-grow: auto;
    spacing: 10px;
    flex-direction: row;
    justify-content: flex-end;
@@ -100,6 +102,7 @@ nav li{
       border: 3px solid #ffffff;
       margin: 10px;
       max-width: 300px;
+      max-height: 500px;
     }
 
   }
@@ -129,6 +132,8 @@ nav li{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 .column{
