@@ -4,6 +4,18 @@
     overflow-wrap: normal;
     padding: 5px;
   }
+
+  nav {
+   background-color: #ffdbdb;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   color: #1d3f34;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
 }
 
 body {
