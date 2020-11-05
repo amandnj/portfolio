@@ -16,6 +16,7 @@
    justify-content: center;
    align-items: center;
   }
+  
 }
 
 body {
@@ -172,10 +173,15 @@ nav.current{
   flex-wrap: wrap;
   content: "";
   clear: all;
+  margin-bottom: 15px;
 }
 
 footer{
       color: #fef8f5;
+      position: fixed;
+      bottom:0px;
+      left: 0px;
+      right: 0px;
       background-color: #255243;
       margin-top:15px;
       padding: 15px;
