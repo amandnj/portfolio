@@ -27,7 +27,6 @@ link hover:#2a8259
 
   img {
     max-width: 100%;
-    padding: 10px;
   }
 
   h1{
@@ -59,6 +58,12 @@ link hover:#2a8259
     margin: 0px 0px 15px 0px;
     width: 100%;
     height: auto;
+  }
+
+  nav.active{
+    color: #2a8259;
+    border: 1px solid #133b29;
+    font-weight: bold;
   }
 
   nav ul {
@@ -148,9 +153,8 @@ link hover:#2a8259
     justify-content: center;
 
   }
-
-  .gallery img{
-    border: 2px solid #FFFFFF;
+  .gallery img:{
+    height: 300px;
   }
 
   .gallery img:hover{
@@ -171,6 +175,7 @@ link hover:#2a8259
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    padding-bottom: 20px;
   }
 }
 
@@ -219,13 +224,14 @@ link hover:#2a8259
     background-color:#e8b3ae;
     margin: 0px 0px 15px 0px;
     width: 100%;
-    max-height: 100px;
+    height: 100px;
   }
 
   nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding: 5px;
     justify-content: flex-end;
     align-items: center;
   }
