@@ -56,6 +56,13 @@ body {
 nav li{
   display:inline;
   padding: 7px;
+  overflow: auto;
+}
+
+nav a.current{
+  background-color: #255243;
+  color: #fef8f5;
+  border: 1px solid #1c2a33;
 }
 
 .skip a:focus {
