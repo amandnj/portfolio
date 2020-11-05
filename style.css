@@ -20,6 +20,11 @@ link hover:#2a8259
     font-size: 14px;
   }
 
+  p{
+    padding-left: 15px;
+    padding bottom: 5px;
+  }
+
   img {
     max-width: 100%;
     padding: 10px;
