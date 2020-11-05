@@ -147,21 +147,16 @@ nav.current{
 }
 
 .issue-images {
-  display: grid;
+  display: flex;
   max-width: 350px;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  align-content: center;
+  max-height: 400px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #fungusgnats, #watering, #rootissues, #spidermites {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-width: fit-content;
-  max-height: fit-content;
+  border: 5px solid #ffffff;
+  padding: 10px;
 }
 
 .column{
