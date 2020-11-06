@@ -77,17 +77,14 @@ link hover:#2a8259
 
   a{
     color:#945c5c;
+    text-decoration: none;
   }
 
   a.hover{
     color:#2a8259;
+    text-decoration: underline;
   }
 
-  a.active {
-    color: #2a8259;
-    border: 1px solid #133b29;
-    font-weight: bold;
-  }
 
   .skip{
     /*something here to make the jump to content slide down like it did in the one hw*/
