@@ -80,7 +80,7 @@ link hover:#2a8259
     text-decoration: none;
   }
 
-  a.hover{
+  nav a.hover{
     color:#2a8259;
     text-decoration: underline;
   }
@@ -244,11 +244,12 @@ link hover:#2a8259
   nav li{
     padding-right: 10px;
   }
+
   a{
     color:#945c5c;
   }
 
-  a.hover{
+  nav a.hover{
     color:#2a8259;
   }
 
