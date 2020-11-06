@@ -60,8 +60,9 @@ link hover:#2a8259
     height: auto;
   }
 
-  nav.active{
+  nav.current{
     color: #2a8259;
+    background-color: #FAF2F5;
     border: 1px solid #133b29;
     font-weight: bold;
   }
