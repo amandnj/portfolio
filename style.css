@@ -1,6 +1,6 @@
 /*color codes:
 page background:#FAF2F5
-nav background:#e8b3ae
+nav background:#f0d7d5
 header1 text:#133b29
 header2 text:#284f3d
 header3 text:#945c5c
@@ -26,7 +26,8 @@ link hover:#2a8259
   }
 
   img {
-    max-width: 100%;
+    max-width: 800px;
+    height: auto;
   }
 
   h1{
@@ -54,17 +55,16 @@ link hover:#2a8259
   }
 
   nav{
-    background-color:#e8b3ae;
+    background-color:#f0d7d5;
     margin: 0px 0px 15px 0px;
     width: 100%;
     height: auto;
   }
 
   nav .current{
-    color: #2a8259;
+    color:#0d291c;
     background-color: #FAF2F5;
     border: 1px solid #133b29;
-    font-weight: bold;
   }
 
   nav ul {
@@ -76,7 +76,7 @@ link hover:#2a8259
   }
 
   a{
-    color:#945c5c;
+    color:#381528;
     text-decoration: none;
   }
 
