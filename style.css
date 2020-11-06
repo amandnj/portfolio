@@ -215,7 +215,7 @@ link hover:#2a8259
   h3{
     font-family: "Verdana", sans-serif;
     font-size: 20px;
-    color: #945c5c;
+    color:#945c5c;
     padding: 15px;
   }
   nav{
@@ -235,10 +235,9 @@ link hover:#2a8259
   }
 
   nav .current{
-    color: #2a8259;
+    color:#0d291c;
     background-color: #FAF2F5;
     border: 1px solid #133b29;
-    font-weight: bold;
   }
 
   nav li{
@@ -246,17 +245,12 @@ link hover:#2a8259
   }
 
   a{
-    color:#945c5c;
+    color:#381528;
+    text-decoration: none;
   }
 
   nav a.hover{
     color:#2a8259;
-  }
-
-  a.active {
-    color: #2a8259;
-    border: 1px solid #133b29;
-    font-weight: bold;
   }
 
   footer{
