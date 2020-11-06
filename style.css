@@ -60,7 +60,7 @@ link hover:#2a8259
     height: auto;
   }
 
-  nav.current{
+  nav .current{
     color: #2a8259;
     background-color: #FAF2F5;
     border: 1px solid #133b29;
@@ -232,6 +232,17 @@ link hover:#2a8259
     padding: 5px;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  nav .current{
+    color: #2a8259;
+    background-color: #FAF2F5;
+    border: 1px solid #133b29;
+    font-weight: bold;
+  }
+
+  nav li{
+    padding-right: 10px;
   }
   a{
     color:#945c5c;
