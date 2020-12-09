@@ -16,7 +16,7 @@ link hover:#2a8259
   body{
     background-color: #FAF2F5;
     color: #0d291c;
-    font-family: "Verdana", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
   }
 
@@ -30,14 +30,14 @@ link hover:#2a8259
   }
 
   h1{
-    font-family: "Georgia", serif;
+    font-family: "Shrikhand", serif;
     font-size: 32 px;
     color: #133b29;
     padding: 15px;
   }
 
   h2{
-    font-family: "Georgia", serif;
+    font-family: "Shrikhand", serif;
     font-size: 28px;
     color:#284f3d;
     padding-left: 10px;
@@ -47,7 +47,7 @@ link hover:#2a8259
   }
 
   h3{
-    font-family: "Verdana", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: #945c5c;
     padding: 15px;
@@ -92,7 +92,7 @@ link hover:#2a8259
   footer{
     background-color:#0d291c;
     color:#FAF2F5;
-    font-family: "Georgia", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 10px;
     text-align: right;
     width: 100%;
@@ -185,7 +185,7 @@ link hover:#2a8259
   body{
     background-color: #FAF2F5;
     color: #0d291c;
-    font-family: "Verdana", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
   }
 
@@ -195,14 +195,14 @@ link hover:#2a8259
   }
 
   h1{
-    font-family: "Georgia", serif;
+    font-family: "Shrikhand", serif;
     font-size: 32 px;
     color: #133b29;
     padding: 15px;
   }
 
   h2{
-    font-family: "Georgia", serif;
+    font-family: "Shrikhand", serif;
     font-size: 28px;
     color:#284f3d;
     padding-left: 10px;
@@ -212,7 +212,7 @@ link hover:#2a8259
   }
 
   h3{
-    font-family: "Verdana", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     color:#945c5c;
     padding: 15px;
@@ -233,10 +233,23 @@ link hover:#2a8259
     align-items: center;
   }
 
+  @keyframes nav_current_animation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.75;
+    }
+  }
+
   nav .current{
     color:#0d291c;
     background-color: #FAF2F5;
     border: 1px solid #133b29;
+    animation-name: nav_current_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
   }
 
   nav li{
@@ -255,7 +268,7 @@ link hover:#2a8259
   footer{
     background-color:#0d291c;
     color:#FAF2F5;
-    font-family: "Georgia", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 10px;
     text-align: right;
     width: 100%;
