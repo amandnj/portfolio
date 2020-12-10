@@ -194,6 +194,10 @@ link hover:#2a8259
     padding-bottom: 5px;
   }
 
+  img {
+    max-width: 99%;
+  }
+
   h1{
     font-family: "Shrikhand", serif;
     font-size: 50 px;
@@ -339,8 +343,7 @@ link hover:#2a8259
     justify-content: center;
 
   }
-  .gallery img:{
-    width: 300px;
+  .gallery img {
     height: 300px;
     overflow: hidden;
   }
