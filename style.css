@@ -294,7 +294,7 @@ link hover:#2a8259
   /*INDEX page specific*/
   .intro-image{
     border: 5px solid #FFFFFF;
-    max-width: 75%;
+    max-width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -333,14 +333,16 @@ link hover:#2a8259
   .gallery{
     display: grid;
     max-width: 98%;
-    grid-template-rows: auto;
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     grid-gap: 5px;
     justify-content: center;
 
   }
   .gallery img:{
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
   }
 
 /*ISSUES page specific*/
