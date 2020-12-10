@@ -425,4 +425,13 @@ link hover:#2a8259
     opacity:0.2;
   }
 
+
+  @media (prefers-reduced-motion: reduce) {
+    nav {animation: none;}
+    .issues-flex img {animation: none;}
+
+      @keyframes shake {animation: none;}
+      @keyframes nav_current_animation {animation: none;}
+  }
+
 }
