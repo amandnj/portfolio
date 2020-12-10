@@ -407,24 +407,28 @@ link hover:#2a8259
 
 
 /*LIST PAGE SPECIFIC*/
-  .difficulty-table::before{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
-
+  
   .difficulty-table{
-    background-image: url("piccies/rainforestbg.jpg");
+    background-image: url("piccies/rainforestbg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity:0.2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
   }
 
+  .beginner, .intermediate, .advanced {
+    background-color: #FAF2F5;
+    margin: 10px;
+    border: 2px solid #0d291c;
+    border-radius: 2px;
+  }
 
   @media (prefers-reduced-motion: reduce) {
     nav {animation: none;}
