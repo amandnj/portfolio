@@ -196,14 +196,14 @@ link hover:#2a8259
 
   h1{
     font-family: "Shrikhand", serif;
-    font-size: 40 px;
+    font-size: 50 px;
     color: #133b29;
     padding: 15px;
   }
 
   h2{
     font-family: "Shrikhand", serif;
-    font-size: 32px;
+    font-size: 40px;
     color:#284f3d;
     padding-left: 10px;
     padding-top: 10px;
@@ -221,7 +221,7 @@ link hover:#2a8259
     background-color:#e8b3ae;
     margin: 0px 0px 15px 0px;
     width: 100%;
-    height: 200px;
+    height: 100px;
   }
 
   nav ul {
@@ -247,13 +247,15 @@ link hover:#2a8259
     background-color: #FAF2F5;
     border: 1px solid #133b29;
     animation-name: nav_current_animation;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 
   }
 
   nav li{
     padding-right: 10px;
+    display: flex;
+    flex-direction: row,
   }
 
   a{
