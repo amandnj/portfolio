@@ -437,6 +437,22 @@ link hover:#2a8259
     border: 2px solid #0d291c;
     border-radius: 2px;
     align-content: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+
+  .list_text{
+    display: block;
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #FAF2F5;
+    border: 2px solid #0d291c;
+    border-radius: 2px;
+    text-align: center;
   }
 
   @media (prefers-reduced-motion: reduce) {
