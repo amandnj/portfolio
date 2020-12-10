@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="html5reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&family=Shrikhand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-560KMHSGJF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-560KMHSGJF');
+    </script>
     <title>About</title>
   </head>
 <body> 
@@ -30,17 +40,14 @@
 <h3>Submit your plant questions!</h3>
 
 <div class="form">
-    <form action=”mailto:amandnj@umich.edu”
-    method=”POST”
-    enctype=”multipart/form-data”
-    name=”PortfolioFormResponse”>
+  <form action="https://getsimpleform.com/messages?form_api_token=ad51045eb5076dafac017f1027046981" method="post">
     <label for="fname">Name</label>
     <br>
     <input type="text" id="fname" name="name" placeholder="Your name..">
     <br>
     <label for="subject">Your Message</label>
     <br>
-    <textarea id="subject" name="subject" placeholder="Write your message here!" style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write your message here!" style="height:400px"></textarea>
     <br>
     <input type="submit" value="Submit">
   </form>
