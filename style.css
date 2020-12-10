@@ -189,6 +189,11 @@ link hover:#2a8259
     font-size: 18px;
   }
 
+  #skip{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+  }
+
   p{
     padding-left: 15px;
     padding-bottom: 5px;
@@ -413,21 +418,25 @@ link hover:#2a8259
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    margin-right: auto;
+    justify-content: center;
+    margin-left: auto;
     
   }
 
   .beginner, .intermediate, .advanced {
     background-color: #FAF2F5;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid #0d291c;
     border-radius: 2px;
+    align-content: center;
   }
 
   @media (prefers-reduced-motion: reduce) {
