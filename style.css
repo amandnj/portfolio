@@ -282,13 +282,6 @@ link hover:#2a8259
     font-size: 55px;
   }
 
-  .form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
   footer{
     background-color:#0d291c;
     color:#FAF2F5;
@@ -323,7 +316,7 @@ link hover:#2a8259
     margin-bottom: 20px;
   }
 
-  form {
+  .form {
     display: flex;
     width: 500px;
     height: 600px;
@@ -332,7 +325,7 @@ link hover:#2a8259
     padding-top: 5px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
   }
 
 
@@ -414,7 +407,7 @@ link hover:#2a8259
 
 
 /*LIST PAGE SPECIFIC*/
-  .difficulty-table{
+  .difficulty-table::before{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -423,7 +416,7 @@ link hover:#2a8259
     margin-bottom: 20px;
   }
 
-  .difficulty-table::before{
+  .difficulty-table{
     background-image: url("piccies/rainforestbg.jpg");
     background-attachment: fixed;
     background-position: center;
