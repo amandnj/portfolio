@@ -289,13 +289,13 @@ link hover:#2a8259
     background-color:#0d291c;
     color:#FAF2F5;
     font-family: "Raleway", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     text-align: right;
     width: 100%;
     bottom:0;
     left: 0;
     position: fixed;
-    max-height: 40px;
+    max-height: 60px;
   }
 
   #lemon:hover, #peperomia:hover, #pilea:hover, #fern:hover, #polkadot:hover, #pothos:hover, #spider:hover, #yucca:hover, #pinksyn:hover, #monstera:hover, #snake:hover, #cactus:hover {
