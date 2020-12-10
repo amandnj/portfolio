@@ -438,7 +438,7 @@ link hover:#2a8259
     border-radius: 2px;
     align-content: center;
     justify-content: center;
-    padding-left: 10px;
+    padding: 20px;
   }
 
   .list_text{
@@ -449,9 +449,7 @@ link hover:#2a8259
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 30px;
-    background-color: #FAF2F5;
-    border: 2px solid #0d291c;
-    border-radius: 2px;
+    background: transparent;
     text-align: center;
   }
 
