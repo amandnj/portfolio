@@ -381,7 +381,7 @@ link hover:#2a8259
     margin-bottom: 20px;
   }
 
-  .form {
+  form {
     display: flex;
     width: 500px;
     height: 600px;
@@ -518,7 +518,6 @@ link hover:#2a8259
         background-image: none;
         color: #000000;
         background-color: #FFFFFF;
-        font-family: sans-serif;
     }
 }
 
