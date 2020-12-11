@@ -316,6 +316,51 @@ link hover:#2a8259
     overflow:hidden;
   }
 
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: #FAF2F5;
+  width: 700px;
+  height: 600px;
+  // border: 3px solid #:#133b29;
+  // perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner, .flip-card:active .flip-card-inner, .flip-card:focus .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #e8b3ae;
+  background-color: #FAF2F5;
+  color: #2a8259;
+  color: #381528;
+}
+
+.flip-card-back {
+  background-color: #381528;
+  color: white;
+  transform: rotateY(180deg);
+}
+
   /*ABOUT page specific*/
   .about-text {
     margin-bottom: 20px;
@@ -438,7 +483,7 @@ link hover:#2a8259
     border-radius: 2px;
     align-content: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
   }
 
   .list_text{
