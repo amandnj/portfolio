@@ -18,6 +18,7 @@ link hover:#2a8259
     color: #0d291c;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
+    cursor: default;
   }
 
   p{
@@ -187,6 +188,7 @@ link hover:#2a8259
     color: #0d291c;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
+    cursor: url(https://img.icons8.com/plasticine/100/000000/potted-plant.png);
   }
 
   #skip{
@@ -511,12 +513,23 @@ link hover:#2a8259
     text-align: center;
   }
 
+  @media print {
+    body{
+        background-image: none;
+        color: #000000;
+        background-color: #FFFFFF;
+        font-family: sans-serif;
+    }
+}
+
   @media (prefers-reduced-motion: reduce) {
     nav {animation: none;}
     .issues-flex img {animation: none;}
 
       @keyframes shake {animation: none;}
       @keyframes nav_current_animation {animation: none;}
+
+      cursor: default;
   }
 
 }
