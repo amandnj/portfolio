@@ -199,6 +199,11 @@ link hover:#2a8259
     padding-bottom: 5px;
   }
 
+  a:hover:{
+    color: #133b29;
+    text-decoration: underline 1px solid #133b29;
+  }
+
   img {
     max-width: 99%;
   }
