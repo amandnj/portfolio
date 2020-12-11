@@ -319,8 +319,14 @@ link hover:#2a8259
   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: #FAF2F5;
-  width: 700px;
+  width: 600px;
   height: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
   // border: 3px solid #:#133b29;
   // perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -331,7 +337,7 @@ link hover:#2a8259
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 1s;
   transform-style: preserve-3d;
 }
 
@@ -358,6 +364,7 @@ link hover:#2a8259
 .flip-card-back {
   background-color: #381528;
   color: white;
+  font-size: 30px;
   transform: rotateY(180deg);
 }
 
